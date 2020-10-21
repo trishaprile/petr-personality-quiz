@@ -1,5 +1,5 @@
-<h1>Petr Personality Quiz<h1>
-Find out which petr is most like you!
+<h1>Petr Personality Quiz</h1>
+<p>Find out which petr is most like you!</p>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
