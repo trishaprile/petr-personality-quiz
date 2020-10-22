@@ -2,11 +2,14 @@ import React, { useState } from 'react';
 import './App.css';
 import ParticlesBg from "particles-bg";
 // import data from './data.json';
+import Restore from '@material-ui/icons/Restore';
+
 
 function App() {
 
   var beachBum, dontTalk, eastr, grad, jolly, lucky, marchMadness, newYears, romantic, spooky, thankful, thanos;
   beachBum = dontTalk = eastr = grad = jolly = lucky = marchMadness = newYears = romantic = spooky = thankful = thanos = 0;
+  // beachBum, grad, jolly, dontTalk, marchMadness, newYears, thanos, romantic?
 
   const questions = [
 		{
@@ -14,7 +17,7 @@ function App() {
 			answerOptions: [
 				{ answerText: 'At a coffee/boba shop', petr: 'jolly'},
 				{ answerText: 'Anywhere with friends', petr: 'dontTalk'},
-        { answerText: 'In the library', petr: 'grad'},
+        { answerText: 'In the library/at home', petr: 'grad'},
         { answerText: "I don't", petr: 'beachBum'},
 			],
 		},
@@ -30,10 +33,10 @@ function App() {
     {
 			questionText: 'What do you buy on Ring Road?',
 			answerOptions: [
-				{ answerText: 'Boba', petr: 'romantic'},
+				{ answerText: 'Boba', petr: 'newYears'},
 				{ answerText: 'Spam musubi', petr: 'dontTalk'},
-				{ answerText: 'Costco pizza and churros', petr: 'thanos'},
-				{ answerText: "Nothing, I'm broke", petr: 'newYears'},
+				{ answerText: 'Something new', petr: 'thanos'},
+				{ answerText: "Nothing, I'm broke", petr: 'romantic'},
 			],
     },
     {
@@ -57,7 +60,7 @@ function App() {
     {
 			questionText: 'What are you doing on a Friday night?',
 			answerOptions: [
-				{ answerText: 'Eating dinner at Diamond Jamboree', petr: 'jolly'},
+				{ answerText: 'Eating dinner at Diamond Jamboree', petr: 'dontTalk'},
 				{ answerText: 'Hanging out at Turtle Rock', petr: 'thanos'},
 				{ answerText: 'Attending a club event', petr: 'jolly'},
         { answerText: 'Staying in', petr: 'beachBum'},
@@ -115,8 +118,10 @@ function App() {
       <div className="Quiz">
         {showResult ? (
           <div className='score-section'>
+            <h3>you got:</h3>
             <h2>beach bum petr</h2>
-            <button onClick={refreshPage}>Take Again</button>
+            <p>Description</p>
+            <button onClick={refreshPage} id='takeAgain'>Take the quiz again</button>
           </div>
         ) : (
           <>

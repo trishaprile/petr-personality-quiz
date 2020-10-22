@@ -20,10 +20,10 @@
     {
         questionText: 'What do you buy on Ring Road?',
         answerOptions: [
-            { answerText: 'Boba', petr: 'romantic'},
+            { answerText: 'Boba', petr: 'newYears'},
             { answerText: 'Spam musubi', petr: 'dontTalk'},
-            { answerText: 'Costco pizza and churros', petr: 'thanos'},
-            { answerText: "Nothing, I'm broke", petr: 'newYears'},
+            { answerText: 'Something new', petr: 'thanos'},
+            { answerText: "Nothing, I'm broke", petr: 'romantic'},
         ],
     },
     {
