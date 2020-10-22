@@ -17,6 +17,11 @@
       "type": "image/png",
       "sizes": "512x512"
     }
+    {
+      "src": "petr.jpg",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
   ],
   "start_url": ".",
   "display": "standalone",

@@ -1,4 +1,5 @@
 body {
+  background-color:#F6F6F6;
   color: #ffffff;
   justify-content: center;
   align-items: center;
@@ -7,41 +8,77 @@ body {
 
 .App-header {
   text-align: center;
-  font-size: 48px;
+  font-size: 36px;
   font-weight: 700;
-  text-shadow: 2px 2px 3px #8a4d1a;
-  padding: 2em 1em;
+  text-shadow: 2px 2px 3px #6072b3;
+  padding-top: 2em;
+
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2em;
+  border-radius: 50%;
+  max-width: 15%;
+  height: auto;
 
 }
 
 .Quiz {
-  background-color: #6072b3;
+  background-color: #7682b3;
   margin: auto;
   padding: 2em;
   max-width: 1000px;
   height: auto;
-  box-shadow: 8px 8px 20px 0px #ffffff;
+  box-shadow: 8px 8px 20px 0px #22305f;
   border-radius: 15px;
-  font-size: 24px;
-  
-  
+  font-size: 18px;
 }
 
 .question-count {
   margin-bottom: 1em;
 }
 
-.question-count span {
-  font-size: 28px;
-}
-
 .question-text {
   margin-bottom: 1em;
+  font-weight: 500;
+  font-size: 24px;
+
 }
 
 .answer-section {
   width: 100%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
+}
+
+button {
+  flex-basis: 50%;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #445591;
+  border-radius: 15px;
+  display: flex;
+  padding: 1em;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+  font-size: 20px;
+  box-shadow: 4px 4px 10px #22305f;
+}
+
+button:hover {
+  background-color: #555e7d;
+}
+
+button:focus {
+  outline: none;
+}
+
+button svg {
+  margin-right: 5px;
 }

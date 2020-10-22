@@ -57,12 +57,13 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
-        Which petr are you?
-      </header>
       <div>
         <ParticlesBg type="circle" bg={true}/>
       </div>
+      <header className="App-header">
+        Which petr are you?
+      </header>
+      <img src={require('./img/petr.jpg')} alt="petr"/>
       <div className="Quiz">
         {showResult ? (
           <div className='score-section'>
