@@ -8,11 +8,14 @@ body {
 
 .App-header {
   text-align: center;
+  padding-top: 1em;
+}
+
+h1 {
+  text-align: center;
   font-size: 36px;
   font-weight: 700;
-  text-shadow: 2px 2px 3px #6072b3;
-  padding-top: 2em;
-
+  text-shadow: 3px 1px 5px #6072b3;
 }
 
 img {
@@ -21,9 +24,8 @@ img {
   margin-right: auto;
   padding: 2em;
   border-radius: 50%;
-  max-width: 15%;
+  width: 300px;
   height: auto;
-
 }
 
 .Quiz {
@@ -32,13 +34,13 @@ img {
   padding: 2em;
   max-width: 1000px;
   height: auto;
-  box-shadow: 8px 8px 20px 0px #22305f;
+  box-shadow: 5px 5px 20px 0px #22305f;
   border-radius: 15px;
   font-size: 18px;
 }
 
 .question-count {
-  margin-bottom: 1em;
+  margin-bottom: 0.5em;
 }
 
 .question-text {
@@ -57,23 +59,25 @@ img {
 }
 
 button {
-  flex-basis: 50%;
+  flex-basis: 49%;
   font-size: 16px;
   color: #ffffff;
-  background-color: #445591;
-  border-radius: 15px;
+  background-color: #615688;
+  border-radius: 30px;
   display: flex;
   padding: 1em;
-  justify-content: flex-start;
+  margin-bottom: 1em;
+  justify-content: center;
   align-items: center;
   cursor: pointer;
   font-size: 20px;
-  box-shadow: 4px 4px 10px #22305f;
+  box-shadow: 3px 3px 3px #3d2e7a;
 }
 
 button:hover {
-  background-color: #555e7d;
+  background-color: #413a5f;
 }
+
 
 button:focus {
   outline: none;
