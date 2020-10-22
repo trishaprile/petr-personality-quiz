@@ -40,7 +40,7 @@ function App() {
 			],
     },
     {
-			questionText: 'What do you do during class?',
+			questionText: 'What do you do during lecture?',
 			answerOptions: [
 				{ answerText: 'Pay attention and take notes', petr: 'grad'},
 				{ answerText: 'Browse Confessions at UCI and Zotmemes', petr: 'thanos'},
