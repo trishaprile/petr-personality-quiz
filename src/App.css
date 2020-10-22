@@ -4,6 +4,7 @@ body {
   justify-content: center;
   align-items: center;
   margin: 1em;
+  overflow: auto;
 }
 
 .App-header {
@@ -15,7 +16,13 @@ h1 {
   text-align: center;
   font-size: 36px;
   font-weight: 700;
-  text-shadow: 3px 1px 5px #6072b3;
+  text-shadow: 3px 1px 5px #413a5f;
+}
+
+h2 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
 }
 
 img {
@@ -34,7 +41,7 @@ img {
   padding: 2em;
   max-width: 1000px;
   height: auto;
-  box-shadow: 5px 5px 20px 0px #22305f;
+  box-shadow: 5px 5px 20px 0px #413a5f;
   border-radius: 15px;
   font-size: 18px;
 }
@@ -61,9 +68,11 @@ img {
 button {
   flex-basis: 49%;
   font-size: 16px;
+  font-family: 'Poppins', sans-serif;
   color: #ffffff;
   background-color: #615688;
   border-radius: 30px;
+  border: 3px solid #ffffff;
   display: flex;
   padding: 1em;
   margin-bottom: 1em;
@@ -71,13 +80,19 @@ button {
   align-items: center;
   cursor: pointer;
   font-size: 20px;
-  box-shadow: 3px 3px 3px #3d2e7a;
+  box-shadow: 0px 7px 0px #615688;
+  cursor: pointer;
 }
 
 button:hover {
   background-color: #413a5f;
 }
 
+button:active {
+  background-color: #413a5f;
+  box-shadow: 0 3px #413a5f;
+  transform: translateY(4px);
+}
 
 button:focus {
   outline: none;

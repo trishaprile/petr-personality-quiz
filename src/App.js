@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 import ParticlesBg from "particles-bg";
+// import data from './data.json';
 
 function App() {
 
@@ -12,9 +13,9 @@ function App() {
 			questionText: 'Where do you like to study?',
 			answerOptions: [
 				{ answerText: 'At a coffee/boba shop', petr: 'jolly'},
-				{ answerText: "I don't", petr: 'beachBum'},
 				{ answerText: 'Anywhere with friends', petr: 'dontTalk'},
-				{ answerText: 'In the library', petr: 'grad'},
+        { answerText: 'In the library', petr: 'grad'},
+        { answerText: "I don't", petr: 'beachBum'},
 			],
 		},
     {
@@ -39,7 +40,7 @@ function App() {
 			questionText: 'What do you do during class?',
 			answerOptions: [
 				{ answerText: 'Pay attention and take notes', petr: 'grad'},
-				{ answerText: 'Scroll through Confessions at UCI and Zotmemes', petr: 'thanos'},
+				{ answerText: 'Browse Confessions at UCI and Zotmemes', petr: 'thanos'},
 				{ answerText: 'Sleep', petr: 'beachBum'},
         { answerText: 'Go on Tinder', petr: 'romantic'},
 			],
@@ -85,7 +86,7 @@ function App() {
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [showResult, setShowResult] = useState(false);
   const [petr, setPetr] = useState(0);
-  const [petrImg, setPetrImg] = useState(require('./img/petr.jpg'));
+  const [petrImg, setPetrImg] = useState(require('./img/petr_mystery.png'));
 
   const handleAnswerOptionClick = (petr) => {
     petr += 1;
@@ -114,7 +115,7 @@ function App() {
       <div className="Quiz">
         {showResult ? (
           <div className='score-section'>
-            <h1>beach bum petr</h1>
+            <h2>beach bum petr</h2>
             <button onClick={refreshPage}>Take Again</button>
           </div>
         ) : (
