@@ -1,49 +1,47 @@
-.App-header {
-  text-align: center;
+body {
   color: #ffffff;
-  font-size: 32px;
-  font-weight: bold;
-  text-shadow: 2px 2px 3px #8a4d1a;
-  padding-top: 2em;
-
-}
-
-
-/* .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  justify-content: center;
+  align-items: center;
+  margin: 1em;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+  text-shadow: 2px 2px 3px #8a4d1a;
+  padding: 2em 1em;
+
+}
+
+.Quiz {
+  background-color: #6072b3;
+  margin: auto;
+  padding: 2em;
+  max-width: 1000px;
+  height: auto;
+  box-shadow: 8px 8px 20px 0px #ffffff;
+  border-radius: 15px;
+  font-size: 24px;
+  
+  
+}
+
+.question-count {
+  margin-bottom: 1em;
+}
+
+.question-count span {
+  font-size: 28px;
+}
+
+.question-text {
+  margin-bottom: 1em;
+}
+
+.answer-section {
+  width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
