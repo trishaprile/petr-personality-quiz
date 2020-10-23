@@ -2,25 +2,27 @@ import React, { useState } from 'react';
 import './App.css';
 import ParticlesBg from "particles-bg";
 import { questions, petrs } from "./data.js";
-// import data from './data.json';
-// import Restore from '@material-ui/icons/Restore';
-
 
 function App() {
 
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [showResult, setShowResult] = useState(false);
-  const [petr, setPetr] = useState(0);
+  const [petrResult, setPetrResult] = useState('');
   const [petrImg, setPetrImg] = useState(require('./img/petr_mystery.png'));
+  const [petrDesc, setPetrDesc] = useState('');
 
   const handleAnswerOptionClick = (petr) => {
-    petr += 1;
-		const nextQuestion = currentQuestion + 1;
+    petrs.find(x => x.id === petr).points += 1;
+    const nextQuestion = currentQuestion + 1;
+    
 		if (nextQuestion < questions.length) {
 			setCurrentQuestion(nextQuestion);
 		} else {
+      var finalPetr = petrs.sort(function(a, b){return b.points - a.points})[0];
+      setPetrResult(finalPetr.name);
+      setPetrImg(require(`${finalPetr.img}`));
+      setPetrDesc(finalPetr.description);
       setShowResult(true);
-      setPetrImg(require('./img/beach_bum_petr.jpg'))
 		}
   };
   
@@ -34,15 +36,15 @@ function App() {
         <ParticlesBg type="circle" bg={true}/>
       </div>
       <header className="App-header">
-        <h1 class="animate_animated animate_bounce">Which petr are you?</h1>
+        <h1>Which petr are you?</h1>
       </header>
-      <img src={petrImg} alt="Petr Sticker" class="animate_animated animate_bounce"/>
+      <img src={petrImg} alt="Petr Sticker"/>
       <div className="Quiz">
         {showResult ? (
           <div className='score-section'>
             <h3>you got:</h3>
-            <h2>beach bum petr</h2>
-            <p>Description</p>
+            <h2>{petrResult}</h2>
+            <p>{petrDesc}</p>
             <button onClick={refreshPage} id='takeAgain'>Take the quiz again</button>
           </div>
         ) : (
