@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/petr-personality-quiz/static/css/main.87973f39.chunk.css",
+    "main.js": "/petr-personality-quiz/static/js/main.5a93c808.chunk.js",
+    "main.js.map": "/petr-personality-quiz/static/js/main.5a93c808.chunk.js.map",
+    "runtime-main.js": "/petr-personality-quiz/static/js/runtime-main.89169752.js",
+    "runtime-main.js.map": "/petr-personality-quiz/static/js/runtime-main.89169752.js.map",
+    "static/js/2.e83a0d0b.chunk.js": "/petr-personality-quiz/static/js/2.e83a0d0b.chunk.js",
+    "static/js/2.e83a0d0b.chunk.js.map": "/petr-personality-quiz/static/js/2.e83a0d0b.chunk.js.map",
+    "index.html": "/petr-personality-quiz/index.html",
+    "precache-manifest.762f87223270d854587a12c86b44cc3b.js": "/petr-personality-quiz/precache-manifest.762f87223270d854587a12c86b44cc3b.js",
+    "service-worker.js": "/petr-personality-quiz/service-worker.js",
+    "static/css/main.87973f39.chunk.css.map": "/petr-personality-quiz/static/css/main.87973f39.chunk.css.map",
+    "static/js/2.e83a0d0b.chunk.js.LICENSE.txt": "/petr-personality-quiz/static/js/2.e83a0d0b.chunk.js.LICENSE.txt",
+    "static/media/beach_bum_petr.jpg": "/petr-personality-quiz/static/media/beach_bum_petr.e202c2da.jpg",
+    "static/media/dont_talk_petr.jpg": "/petr-personality-quiz/static/media/dont_talk_petr.a9d5f506.jpg",
+    "static/media/grad_petr.jpg": "/petr-personality-quiz/static/media/grad_petr.fd9c85cf.jpg",
+    "static/media/jolly_petr.jpg": "/petr-personality-quiz/static/media/jolly_petr.56f9443e.jpg",
+    "static/media/march_madness_petr.jpg": "/petr-personality-quiz/static/media/march_madness_petr.6d5599be.jpg",
+    "static/media/new_years_petr.jpg": "/petr-personality-quiz/static/media/new_years_petr.d78565ae.jpg",
+    "static/media/petr.jpg": "/petr-personality-quiz/static/media/petr.8913c530.jpg",
+    "static/media/petr_mystery.png": "/petr-personality-quiz/static/media/petr_mystery.bc5ac6af.png",
+    "static/media/romantic_petr.jpg": "/petr-personality-quiz/static/media/romantic_petr.f2f702a3.jpg",
+    "static/media/thanos_petr.jpg": "/petr-personality-quiz/static/media/thanos_petr.2aceacdf.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.89169752.js",
+    "static/js/2.e83a0d0b.chunk.js",
+    "static/css/main.87973f39.chunk.css",
+    "static/js/main.5a93c808.chunk.js"
+  ]
+}

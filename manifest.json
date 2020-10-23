@@ -1,0 +1,15 @@
+{
+  "short_name": "Petr Quiz",
+  "name": "Petr Personality Quiz",
+  "icons": [
+    {
+      "src": "./petr_icon.png",
+      "type": "image/png",
+      "sizes": "300x300"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
