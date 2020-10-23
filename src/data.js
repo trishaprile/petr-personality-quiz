@@ -4,7 +4,7 @@ export const questions = [
         answerOptions: [
             { answerText: "At a coffee/boba shop", petr: "jolly"},
             { answerText: "Anywhere with friends", petr: "newYears"},
-            { answerText: "In the library", petr: "grad"},
+            { answerText: "In the library/at home", petr: "grad"},
             { answerText: "I don't", petr: "beachBum"}
         ]
     },
