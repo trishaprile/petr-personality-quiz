@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import './App.css';
 import ParticlesBg from "particles-bg";
 import { questions, petrs } from "./data.js";
+import styled, { keyframes } from 'styled-components';
+import { bounce, fadeIn, slideInRight } from 'react-animations'
 
 function App() {
 
@@ -30,6 +32,11 @@ function App() {
     window.location.reload(false);
   }
 
+  const Bounce = styled.div`animation: 1s ${keyframes`${bounce}`}`;
+  const Fade = styled.div`animation: 1s ${keyframes`${fadeIn}`}`;
+  const Slide = styled.div`animation: 1s ${keyframes`${slideInRight}`}`;
+
+
   return (
     <div className="App">
       <div>
@@ -38,28 +45,28 @@ function App() {
       <header className="App-header">
         <h1>Which petr are you?</h1>
       </header>
-      <img src={petrImg} alt="Petr Sticker"/>
+      <Bounce><img src={petrImg} alt="Petr Sticker"/></Bounce>
       <div className="Quiz">
         {showResult ? (
-          <div className='score-section'>
+          <Fade><div className='score-section'>
             <h3>you got:</h3>
             <h2>{petrResult}</h2>
             <p>{petrDesc}</p>
             <button onClick={refreshPage} id='takeAgain'>Take the quiz again</button>
-          </div>
+          </div></Fade>
         ) : (
           <>
-            <div className='question-section'>
+            <Fade><div className='question-section'>
               <div className='question-count'>
                 <span>Question {currentQuestion + 1}</span>/{questions.length}
               </div>
               <div className='question-text'>{questions[currentQuestion].questionText}</div>
-            </div>
-            <div className='answer-section'>
+            </div></Fade>
+            <Fade><div className='answer-section'>
               {questions[currentQuestion].answerOptions.map((answerOption) => (
                 <button onClick={() => handleAnswerOptionClick(answerOption.petr)}>{answerOption.answerText}</button>
               ))}
-            </div>
+            </div></Fade>
           </>
         )}
       </div>

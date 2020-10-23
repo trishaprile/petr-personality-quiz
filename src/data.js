@@ -92,21 +92,21 @@ export const petrs = [
         id: "grad",
         name: "grad petr",
         img: "./img/grad_petr.jpg",
-        description: "You're hardworking and ambitious. You like to plan ahead and set out goals. Although the unknown scares you, you are often excited by new opportunites. You spend most of your time studying or doing homework, but you enjoy having fun once in a while.",
+        description: "You're a hardworking and ambitious person. You like to plan ahead and set out goals. Although the unknown scares you, you are often excited by new opportunites. You spend most of your time studying or doing homework, but you enjoy having fun once in a while.",
         points: 0
     },
     { 
         id: "jolly",
         name: "jolly petr",
         img: "./img/jolly_petr.jpg",
-        description: "You're high-spirited and thoughtful. You like making other people happy and you find joy in the little things. You're a very generous person and you often put others before yourself. You also light up every room you walk into.",
+        description: "You're a high-spirited and thoughtful person. You like making other people happy and you find joy in the little things. You're a very generous person and you often put others before yourself. You also light up every room you walk into.",
         points: 0
     },
     { 
         id: "marchMadness",
         name: "march madness petr",
         img: "./img/march_madness_petr.jpg",
-        description: "You're active and energetic. You work well in groups and you're a natural leader. You can get competitive sometimes, but you always have a positive attitude. You're good at almost everything you do and you easily overcome challenges.",
+        description: "You're an active and energetic person. You work well in groups and you're a natural leader. You can get competitive sometimes, but you always have a positive attitude. You're good at almost everything you do and you easily overcome challenges.",
         points: 0
     },
     { 
