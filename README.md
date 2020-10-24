@@ -1,7 +1,8 @@
 <h1>Petr Personality Quiz</h1>
 <p>Find out which petr is most like you!</p>
+<p>Take it <a href="https://trishaprile.github.io/petr-personality-quiz/">here</a>!</p>
+<br/>
 <p>Petr art by <a href="https://www.instagram.com/petr_the_anteatr">@petr_the_anteatr</a></p>
-<p>Take it <a href="https://trishaprile.github.io/petr-personality-quiz/">here</a></p>
 <br/>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
