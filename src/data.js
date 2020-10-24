@@ -99,7 +99,7 @@ export const petrs = [
         id: "jolly",
         name: "jolly petr",
         img: "./img/jolly_petr.jpg",
-        description: "You're a high-spirited and thoughtful person. You like making other people happy and you find joy in the little things. You're a very generous person and you often put others before yourself. You also light up every room you walk into.",
+        description: "You're a high-spirited and thoughtful person. You like making other people happy and you find joy in the little things. You're extremely generous and you often put others before yourself. You also light up every room you walk into.",
         points: 0
     },
     { 
@@ -113,14 +113,14 @@ export const petrs = [
         id: "newYears",
         name: "new year new petr",
         img: "./img/new_years_petr.jpg",
-        description: "You're an outgoing person who enjoys trying new things. You're always around other people and tend to be out and about most of the time. Your personality and style are constantly changing and you have really good taste. People enjoy your presence, but you can get wild sometimes.",
+        description: "You're an outgoing person who enjoys trying new things. You're always around other people and tend to be out and about most of the time. Your personality and style are constantly changing and you have really good taste. People enjoy your presence, but you can get a little wild sometimes.",
         points: 0
     },
     { 
         id: "romantic",
         name: "romantic petr",
         img: "./img/romantic_petr.jpg",
-        description: "You're an understanding and loving person. You put a lot of effort into your relationships and always want the best for others. You like spending quality time with a few close people in your life and you tend to be very optimistic most of the time.",
+        description: "You're an understanding and loving person. You put a lot of effort into your relationships and always want the best for others. You like spending quality time with a few close people in your life and you tend to be very optimistic in most situations.",
         points: 0
     },
     {

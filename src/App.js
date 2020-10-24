@@ -3,7 +3,7 @@ import './App.css';
 import ParticlesBg from "particles-bg";
 import { questions, petrs } from "./data.js";
 import styled, { keyframes } from 'styled-components';
-import { bounce, fadeIn, slideInRight } from 'react-animations'
+import { bounce, fadeIn } from 'react-animations'
 
 function App() {
 
@@ -34,8 +34,6 @@ function App() {
 
   const Bounce = styled.div`animation: 1s ${keyframes`${bounce}`}`;
   const Fade = styled.div`animation: 1s ${keyframes`${fadeIn}`}`;
-  const Slide = styled.div`animation: 1s ${keyframes`${slideInRight}`}`;
-
 
   return (
     <div className="App">
