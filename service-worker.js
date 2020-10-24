@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/petr-personality-quiz/precache-manifest.322bd41e1ea7b5ffc5589b9c1ada5dfe.js"
+  "/petr-personality-quiz/precache-manifest.5163023da26d59ef10dd573a9878825b.js"
 );
 
 self.addEventListener('message', (event) => {

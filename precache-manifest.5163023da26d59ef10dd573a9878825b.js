@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "478c4eef79f47eea2ec31b2385b15baf",
+    "revision": "8a5a5939d27d3c94df8b15305711f3fe",
     "url": "/petr-personality-quiz/index.html"
   },
   {
-    "revision": "4c0d72e17a64b67b368c",
-    "url": "/petr-personality-quiz/static/css/main.5681da4f.chunk.css"
+    "revision": "1cfbe7b2a260c6bf919a",
+    "url": "/petr-personality-quiz/static/css/main.7b4d90f7.chunk.css"
   },
   {
     "revision": "b516eceb9490f4eb64df",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/petr-personality-quiz/static/js/2.161a3511.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4c0d72e17a64b67b368c",
-    "url": "/petr-personality-quiz/static/js/main.c68740be.chunk.js"
+    "revision": "1cfbe7b2a260c6bf919a",
+    "url": "/petr-personality-quiz/static/js/main.3470c377.chunk.js"
   },
   {
     "revision": "a1dcced1fc6ce42c5a0f",

@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/petr-personality-quiz/static/css/main.5681da4f.chunk.css",
-    "main.js": "/petr-personality-quiz/static/js/main.c68740be.chunk.js",
-    "main.js.map": "/petr-personality-quiz/static/js/main.c68740be.chunk.js.map",
+    "main.css": "/petr-personality-quiz/static/css/main.7b4d90f7.chunk.css",
+    "main.js": "/petr-personality-quiz/static/js/main.3470c377.chunk.js",
+    "main.js.map": "/petr-personality-quiz/static/js/main.3470c377.chunk.js.map",
     "runtime-main.js": "/petr-personality-quiz/static/js/runtime-main.89169752.js",
     "runtime-main.js.map": "/petr-personality-quiz/static/js/runtime-main.89169752.js.map",
     "static/js/2.161a3511.chunk.js": "/petr-personality-quiz/static/js/2.161a3511.chunk.js",
     "static/js/2.161a3511.chunk.js.map": "/petr-personality-quiz/static/js/2.161a3511.chunk.js.map",
     "index.html": "/petr-personality-quiz/index.html",
-    "precache-manifest.322bd41e1ea7b5ffc5589b9c1ada5dfe.js": "/petr-personality-quiz/precache-manifest.322bd41e1ea7b5ffc5589b9c1ada5dfe.js",
+    "precache-manifest.5163023da26d59ef10dd573a9878825b.js": "/petr-personality-quiz/precache-manifest.5163023da26d59ef10dd573a9878825b.js",
     "service-worker.js": "/petr-personality-quiz/service-worker.js",
-    "static/css/main.5681da4f.chunk.css.map": "/petr-personality-quiz/static/css/main.5681da4f.chunk.css.map",
+    "static/css/main.7b4d90f7.chunk.css.map": "/petr-personality-quiz/static/css/main.7b4d90f7.chunk.css.map",
     "static/js/2.161a3511.chunk.js.LICENSE.txt": "/petr-personality-quiz/static/js/2.161a3511.chunk.js.LICENSE.txt",
     "static/media/beach_bum_petr.jpg": "/petr-personality-quiz/static/media/beach_bum_petr.e202c2da.jpg",
     "static/media/dont_talk_petr.jpg": "/petr-personality-quiz/static/media/dont_talk_petr.a9d5f506.jpg",
@@ -26,7 +26,7 @@
   "entrypoints": [
     "static/js/runtime-main.89169752.js",
     "static/js/2.161a3511.chunk.js",
-    "static/css/main.5681da4f.chunk.css",
-    "static/js/main.c68740be.chunk.js"
+    "static/css/main.7b4d90f7.chunk.css",
+    "static/js/main.3470c377.chunk.js"
   ]
 }
