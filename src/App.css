@@ -1,10 +1,11 @@
-body {
+.App {
   background-color:#F6F6F6;
   color: #ffffff;
-  justify-content: center;
-  align-items: center;
-  margin: 1em;
   overflow: auto;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
 }
 
 .App-header {
@@ -39,7 +40,7 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding: 2em;
+  padding-bottom: 2em;
   border-radius: 50%;
   width: 300px;
   height: auto;
@@ -47,8 +48,9 @@ img {
 
 .Quiz {
   background-color: #7682b3;
+  display: block;
   margin: auto;
-  padding: 2em;
+  padding: 2em 2em 1em;
   max-width: 1000px;
   height: auto;
   box-shadow: 5px 5px 20px 0px #413a5f;
@@ -82,21 +84,21 @@ img {
 
 button {
   flex-basis: 49%;
-  font-size: 16px;
+  font-size: 20px;
   font-family: 'Poppins', sans-serif;
   color: #ffffff;
   background-color: #615688;
-  border-radius: 30px;
   border: 3px solid #ffffff;
+  border-radius: 30px;
+  box-shadow: 0px 7px 0px #615688;
   display: flex;
   padding: 1em;
   margin-bottom: 1em;
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  font-size: 20px;
-  box-shadow: 0px 7px 0px #615688;
-  cursor: pointer;
+  width: 49%;
+  height: auto;
 }
 
 button:hover {

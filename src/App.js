@@ -37,9 +37,6 @@ function App() {
 
   return (
     <div className="App">
-      <div>
-        <ParticlesBg type="circle" bg={true}/>
-      </div>
       <header className="App-header">
         <h1>Which petr are you?</h1>
       </header>
@@ -67,6 +64,9 @@ function App() {
             </div></Fade>
           </>
         )}
+      </div>
+      <div>
+        <ParticlesBg type="circle" bg={true}/>
       </div>
     </div>
   );
