@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "01806c6cfe34394d936f81e8b8658d26",
+    "revision": "478c4eef79f47eea2ec31b2385b15baf",
     "url": "/petr-personality-quiz/index.html"
   },
   {
-    "revision": "d7e479bc75593d056aad",
-    "url": "/petr-personality-quiz/static/css/main.87973f39.chunk.css"
+    "revision": "4c0d72e17a64b67b368c",
+    "url": "/petr-personality-quiz/static/css/main.5681da4f.chunk.css"
   },
   {
-    "revision": "a6e767127cef48b563b9",
-    "url": "/petr-personality-quiz/static/js/2.e83a0d0b.chunk.js"
+    "revision": "b516eceb9490f4eb64df",
+    "url": "/petr-personality-quiz/static/js/2.161a3511.chunk.js"
   },
   {
     "revision": "7e29404ea47b60d5472c72345aa9a646",
-    "url": "/petr-personality-quiz/static/js/2.e83a0d0b.chunk.js.LICENSE.txt"
+    "url": "/petr-personality-quiz/static/js/2.161a3511.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d7e479bc75593d056aad",
-    "url": "/petr-personality-quiz/static/js/main.5a93c808.chunk.js"
+    "revision": "4c0d72e17a64b67b368c",
+    "url": "/petr-personality-quiz/static/js/main.c68740be.chunk.js"
   },
   {
     "revision": "a1dcced1fc6ce42c5a0f",
